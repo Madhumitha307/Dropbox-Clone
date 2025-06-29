@@ -34,7 +34,9 @@ docker-compose down
 Install dependencies and start the client(frontend) application:
 
 cd client
+
 npm install
+
 npm start
 
 ### Start Server
@@ -42,7 +44,9 @@ npm start
 Install dependencies and start the server(backend):
 
 cd server
+
 npm install
+
 npm start
 
 ## Combined Workflow
@@ -53,5 +57,6 @@ docker-compose up -d
 
 # In separate terminal windows/tabs:
 cd client && npm install && npm start
+
 cd server  && npm install && npm start
 
